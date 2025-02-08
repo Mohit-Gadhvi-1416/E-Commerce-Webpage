@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="index.html">FASHION</a>
+            </div>
+            <ul class="nav__links">
+                <li><a href="index.html#catalogue">CATALOGUE</a></li>
+                <li><a href="index.html#fashion">FASHION</a></li>
+                <li><a href="index.html#favourite">FAVOURITE</a></li>
+                <li><a href="index.html#lifestyle">LIFESTYLE</a></li>
+                <li><button class="btn">SIGN UP</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Order Tracking Section -->
+    <section class="order-tracking">
+        <h1 class="delivered-title">🎉 Delivered Successfully 🎉</h1>
+
+        <!-- Order Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-step completed">
+                <div class="circle"></div>
+                <p>Order Placed</p>
+            </div>
+            <div class="progress-line completed"></div>
+
+            <div class="progress-step completed">
+                <div class="circle"></div>
+                <p>Shipped</p>
+            </div>
+            <div class="progress-line completed"></div>
+
+            <div class="progress-step completed">
+                <div class="circle"></div>
+                <p>Out for Delivery</p>
+            </div>
+            <div class="progress-line completed"></div>
+
+            <div class="progress-step completed">
+                <div class="circle"></div>
+                <p>Delivered</p>
+            </div>
+        </div>
+
+        <!-- Ordered Products -->
+        <h2 class="order-items-title">Your Ordered Items</h2>
+        <div id="order-items" class="order-items-container">
+        </div>
+
+        <!-- Feedback Button -->
+        <button class="feedback-btn" onclick="redirectToFeedback()">Give Feedback & Review</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#">FASHION</a>
+            </div>
+            <p>Complete your style with awesome clothes from us.</p>
+            <ul class="footer__socials">
+              <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+              <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+              <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+              <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <ul class="footer__links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Quick Links</h4>
+            <ul class="footer__links">
+              <li><a href="#">Store Location</a></li>
+              <li><a href="#">Order Tracking</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Legal</h4>
+            <ul class="footer__links">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bar">
+          Copyright © 2024 Web Design Mastery. All rights reserved.
+        </div>
+      </footer>
+      
+    <script src="script.js"></script>
+    <script src="order-tracking.js"></script>
+
+</body>
+</html>

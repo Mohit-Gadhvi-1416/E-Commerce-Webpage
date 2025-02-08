@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart | FASHION</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="index.html">FASHION</a> <!-- Redirects back to home -->
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="index.html#catalogue">CATALOGUE</a></li>
+                <li><a href="index.html#fashion">FASHION</a></li>
+                <li><a href="index.html#favourite">FAVOURITE</a></li>
+                <li><a href="index.html#lifestyle">LIFESTYLE</a></li>
+                <li><button class="btn">SIGN UP</button></li>
+                <!-- ✅ Cart Button with Counter -->
+                <li class="cart-container">
+                    <a href="cart.html">
+                        <i class="ri-shopping-cart-line"></i>
+                        <span id="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Section -->
+    <section class="section__container cart__container">
+        <h2 class="section__header">Your Shopping Cart</h2>
+        <div id="cart-items">
+            <!-- Items will be dynamically inserted here -->
+        </div>
+
+        <div class="cart-summary">
+            <h3>Total Items: <span id="total-items">0</span></h3>
+            <h3>Total Price: $<span id="total-price">0.00</span></h3>
+        </div>
+
+        <button id="proceed-to-buy" class="btn proceed-btn">Proceed to Checkout</button>
+    </section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#">FASHION</a>
+        </div>
+        <p>Complete your style with awesome clothes from us.</p>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul class="footer__links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Quick Links</h4>
+        <ul class="footer__links">
+          <li><a href="#">Store Location</a></li>
+          <li><a href="#">Order Tracking</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Legal</h4>
+        <ul class="footer__links">
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 Web Design Mastery. All rights reserved.
+    </div>
+  </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
