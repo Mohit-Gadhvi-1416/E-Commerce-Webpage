@@ -14,5 +14,5 @@ From the moment you place an order to the exciting "Delivered Successfully" 🎉
 
 
 🔗 Live Project URL
-📌 Check it out here: 🔗  
+📌 Check it out here: 🔗https://stitchfixer-mohit-gadhvi-1416-mohit-gadhvis-projects.vercel.app?_vercel_share=2Rl9BPPYK81r7NzrH5mkpT9KW8NniDNU
 💡 Developed with love 💖 by Mohit S. Gadhvi!
